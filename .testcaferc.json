@@ -1,0 +1,11 @@
+{
+    "clientScripts": [
+      {"module":"@testing-library/dom/dist/@testing-library/dom.umd.js"}
+    ],
+    "src": "src/test/testcafe/**/*.test.js",
+    "browsers": [
+      "chrome"
+    ],
+    "concurrency": 1,
+    "skipJsErrors": true
+  }
