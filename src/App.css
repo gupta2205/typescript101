@@ -13,3 +13,109 @@
   color: white;
   position: fixed;
 }
+.Firsttable{
+  margin: 50px;
+  border: 10px solid #8080808f;
+  width: 50%;
+}
+.SubTotal {
+  display: flex;
+}
+
+.SubTotalF {
+  margin-left: auto;
+  font-size: 20px;
+  margin-right: 15px;
+  color: #666666;
+  margin-top: 30px;
+}
+.SubTotalP{
+  /* margin-left: auto; */
+  font-size: 20px;
+  margin-left: 15px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.SubTotal > h1 {
+  margin-left: 15px;
+}
+.SubTotalDetail {
+  display: flex;
+  margin-top: -35px;
+  border-bottom: 1px solid grey;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/* .SubTotalDetail > p {
+  margin-left: auto;
+  font-size: 27px;
+  margin-right: 15px;
+  color: #666666;
+} */
+.SubTotalDetailP{
+  margin-left: auto;
+  font-size: 20px;
+  /* margin-right: 20px; */
+  color: #666666;
+}
+.SubTotalDetailfP{
+  /* margin-left: 15px; */
+  font-size: 20px;
+  margin-right: 15px;
+  color: #666666;
+}
+.PickupFees{
+  display: flex;
+  /* margin-top: -35px; */
+  border-bottom: 1px solid grey;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.PickupFeesF{
+  font-size: 20px;
+  margin-right: 15px;
+  color: #666666;
+}
+.PickupFeesP{
+  font-size: 20px;
+  margin-left: auto;
+  color: #666666;
+}
+.Taxes{
+  display: flex;
+  /* margin-top: -35px; */
+  border-bottom: 1px solid grey;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.TaxesP{
+  font-size: 20px;
+  margin-left: auto;
+  color: #666666;
+}
+.TaxesF{
+  font-size: 20px;
+  margin-right: 15px;
+  font-weight: 700;
+  /* color: #666666; */
+}
+.EstimatedTotal{
+  display: flex;
+  /* margin-top: -35px; */
+  /* border-bottom: 1px solid grey; */
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.EstimatedTotalF{
+  font-size: 20px;
+  margin-right: 15px;
+  font-weight: 700;
+}
+.EstimatedTotalP{
+  font-size: 20px;
+  margin-left: auto;
+  /* color: #666666; */
+  font-weight: 700;
+
+}
